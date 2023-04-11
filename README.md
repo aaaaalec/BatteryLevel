@@ -1,6 +1,9 @@
 # BatteryLevel
 A Python script that displays the current battery level as a progress bar using the `acpi` command. The script calculates the length of the progress bar based on the current battery percentage, and prints the progress bar and battery percentage to the console.
 
+`python batteryLevel.py 
+[======================================  ] 93%`
+
 # Requirements
 
 This script requires the acpi command to be installed on your system. acpi is usually available in the package repositories of most Linux distributions.
@@ -17,7 +20,7 @@ To display the current battery level as a progress bar, run the batteryLevel.py 
 
 bash
 
-`./batteryLevel.py`
+`python ./PATH/TO/batteryLevel.py`
 
 
 The script will display the battery level as a progress bar with a length of 40 characters. The progress bar will be filled based on the current battery percentage, and the percentage will be displayed to the right of the progress bar.
