@@ -17,7 +17,7 @@ To display the current battery level as a progress bar, run the batteryLevel.py 
 
 bash
 
-./batteryLevel.py
+`./batteryLevel.py`
 
 
 The script will display the battery level as a progress bar with a length of 40 characters. The progress bar will be filled based on the current battery percentage, and the percentage will be displayed to the right of the progress bar.
